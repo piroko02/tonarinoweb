@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+/*!
+Theme Name: Cocoon Child
+Template:   cocoon-master
+Version:    1.0.8
+*/
+
+/************************************
+** 子テーマ用のスタイルを書く
+************************************/
+.kakomi-box8 {
+  margin: 2em auto;
+  padding: 1em;
+  width: 80%;
+  border: 3px dashed #8EB1CF; /*太さ・線種・色*/
+  color: #303030; /* 文字色 */
+  background-color: #FFF; /* 背景色 */
+  border-radius: 1px; /*角の丸み*/
+}
+.kakomi-box13 {
+  position: relative;
+  margin: 2em auto;
+  padding: 1.2em;
+  width: 80%;
+  color: #303030; /* 文字色 */
+  background-color: #fff;
+  border: 2px solid #f09199; /* 枠線の太さ・色 */
+  box-shadow: 0 0 5px 2px #fce2c4 inset;/* 影の色 */
+  line-height: 1.8;
+  text-align: center;
+  font-size: 1.1em;
+}
+.title-box13 {
+  position: absolute;
+  padding: 0 .5em;
+  left: 20px;
+  top: -15px;
+  font-weight: bold;
+  background-color:  #fff; /* タイトル背景色 */
+  color: #f09199; /* タイトル文字色 */
+}
+
+.list_test-wrap {
+  list-style:  none;  /* デフォルトのアイコンを消す */
+  margin:  0;         /* デフォルト指定上書き */
+  padding: 0;         /* デフォルト指定上書き */
+}
+
+.list_test:before {
+  content:  "";     /* 空の要素作成 */
+  width: 18px;                /* 幅指定 */
+  height: 18px;               /* 高さ指定 */
+  display:  inline-block;     /* インラインブロックにする */
+  background-color: #ADB0D9;  /* 背景色指定 */
+  position:  relative;        /* 位置調整 */
+  top: 3px;                   /* 位置指定 */
+  border-radius:  50%;        /* 要素を丸くする */
+  margin-right: 5px;          /* 余白指定 */
+}
+
+.list_test {
+  padding:  10px;             /* 余白指定 */
+  margin-bottom: 5px;         /* 要素と要素の間指定 */
+  color: #333;                /* 文字色指定 */
+  font-size:  16px;           /* 文字サイズ指定 */
+}
+/************************************
+** レスポンシブデザイン用のメディアクエリ
+************************************/
+/*1240px以下*/
+@media screen and (max-width: 1240px){
+  /*必要ならばここにコードを書く*/
+}
+
+/*1030px以下*/
+@media screen and (max-width: 1030px){
+  /*必要ならばここにコードを書く*/
+}
+
+/*768px以下*/
+@media screen and (max-width: 768px){
+  .slicknav_btn {
+    background-color: #222C53;
+}
+.slicknav_menu {
+  background: #9B9FF2;
+}
+}
+
+/*480px以下*/
+@media screen and (max-width: 480px){
+  /*必要ならばここにコードを書く*/
+}
